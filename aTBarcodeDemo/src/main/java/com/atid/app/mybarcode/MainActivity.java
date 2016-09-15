@@ -11,7 +11,6 @@ import com.atid.app.mybarcode.option.SE4710.OptionActivitySE4710;
 import com.atid.app.mybarcode.option.MDI3x00.OptionActivityMDI3x00;
 import com.atid.app.mybarcode.option.IT5x80.OptionActivityIT5x80;
 import com.atid.lib.system.device.type.BarcodeModuleType;
-
 import android.media.AudioManager;
 import android.media.SoundPool;
 import android.os.Bundle; 
