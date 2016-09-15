@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/scanner_config"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/scanner_config"/>
+
+    <item
+        android:id="@+id/menu_scanner_config"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/scanner_config"/>
+    
+</menu>
+<!-- From: file:/C:/Users/Sledd/Desktop/atid_911n-master/ATBarcodeDemo3/aTBarcodeDemo/src/main/res/menu/main.xml -->

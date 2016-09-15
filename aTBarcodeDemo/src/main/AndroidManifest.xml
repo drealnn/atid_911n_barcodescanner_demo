@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.atid.app.mybarcode"
+    android:versionCode="3"
+    android:versionName="1.4.2015071500" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.atid.app.mybarcode.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity 
+            android:name="com.atid.app.mybarcode.option.SE955.OptionActivitySE955"
+            android:label="@string/barcode_option_name"
+            android:icon="@drawable/ic_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity 
+            android:name="com.atid.app.mybarcode.option.SE955.OptionEnableStateActivity"
+            android:label="@string/state_symbologies_name"
+            android:icon="@drawable/ic_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+                
+        <activity 
+            android:name="com.atid.app.mybarcode.option.SE955.OptionGeneralConfigActivity"
+            android:label="@string/general_config_name"
+            android:icon="@drawable/ic_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+                
+        <activity 
+            android:name="com.atid.app.mybarcode.option.SE955.OptionSymbolUpcEanActivity"
+            android:label="@string/symbol_upc_ean_name"
+            android:icon="@drawable/ic_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+                
+        <activity
+            android:name="com.atid.app.mybarcode.option.SE955.OptionSymbolCode39Activity"
+            android:label="@string/symbol_code39_name"
+            android:icon="@drawable/ic_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+                        
+        <activity
+            android:name="com.atid.app.mybarcode.option.SE955.OptionSymbolCode93Activity"
+            android:label="@string/symbol_code93_name"
+            android:icon="@drawable/ic_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+                        
+        <activity
+            android:name="com.atid.app.mybarcode.option.SE955.OptionSymbolCode11Activity"
+            android:label="@string/symbol_code11_name"
+            android:icon="@drawable/ic_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+                        
+        <activity
+            android:name="com.atid.app.mybarcode.option.SE955.OptionSymbolI2of5Activity"
+            android:label="@string/symbol_interleaved2of5_name"
+            android:icon="@drawable/ic_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+                        
+        <activity 
+            android:name="com.atid.app.mybarcode.option.SE955.OptionSymbolD2of5Activity"
+            android:label="@string/symbol_discete2of5_name"
+            android:icon="@drawable/ic_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+                        
+   		<activity
+   		    android:name="com.atid.app.mybarcode.option.SE955.OptionSymbolCodabarActivity"
+            android:label="@string/symbol_codabar_name"
+            android:icon="@drawable/ic_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+   		<activity
+   		    android:name="com.atid.app.mybarcode.option.SE955.OptionSymbolMsiActivity"
+            android:label="@string/symbol_msi_name"
+            android:icon="@drawable/ic_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity 
+            android:name="com.atid.app.mybarcode.option.IT5x80.OptionActivityIT5x80"
+            android:label="@string/barcode_option_name"
+            android:icon="@drawable/ic_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity 
+            android:name="com.atid.app.mybarcode.option.IT5x80.OptionEnableStateActivity"
+            android:label="@string/state_symbologies_name"
+            android:icon="@drawable/ic_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity 
+            android:name="com.atid.app.mybarcode.option.IT5x80.OptionSymbolAddenda"
+            android:label="@string/barcode_option_name"
+            android:icon="@drawable/ic_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+                
+        <activity 
+            android:name="com.atid.app.mybarcode.option.IT5x80.OptionSymbolCheckDigit"
+            android:label="@string/barcode_option_name"
+            android:icon="@drawable/ic_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+                
+        <activity 
+            android:name="com.atid.app.mybarcode.option.IT5x80.OptionSymbolComplexLength"
+            android:label="@string/barcode_option_name"
+            android:icon="@drawable/ic_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+                
+        <activity 
+            android:name="com.atid.app.mybarcode.option.IT5x80.OptionSymbolLength"
+            android:label="@string/barcode_option_name"
+            android:icon="@drawable/ic_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+                
+        <activity 
+            android:name="com.atid.app.mybarcode.option.IT5x80.OptionSymbolOCR"
+            android:label="@string/barcode_option_name"
+            android:icon="@drawable/ic_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity 
+            android:name="com.atid.app.mybarcode.option.IT5x80.OptionGeneralConfigActivity"
+            android:label="@string/general_config_name"
+            android:icon="@drawable/ic_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity 
+            android:name="com.atid.app.mybarcode.option.SE4710.OptionActivitySE4710"
+            android:label="@string/barcode_option_name"
+            android:icon="@drawable/ic_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity 
+            android:name="com.atid.app.mybarcode.option.MDI3x00.OptionActivityMDI3x00"
+            android:label="@string/barcode_option_name"
+            android:icon="@drawable/ic_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+   		
+        <activity 
+            android:name="com.atid.app.mybarcode.option.SE4710.OptionEnableStateActivity"
+            android:label="@string/barcode_option_name"
+            android:icon="@drawable/ic_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity 
+            android:name="com.atid.app.mybarcode.option.SE4710.OptionGeneralConfigActivity"
+            android:label="@string/barcode_option_name"
+            android:icon="@drawable/ic_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+                
+        <activity 
+            android:name="com.atid.app.mybarcode.option.SE4710.OptionSymbolCodabarActivity"
+            android:label="@string/barcode_option_name"
+            android:icon="@drawable/ic_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity 
+            android:name="com.atid.app.mybarcode.option.SE4710.OptionSymbolCode11Activity"
+            android:label="@string/barcode_option_name"
+            android:icon="@drawable/ic_settings"
+            android:screenOrientation="portrait" >    
+        </activity>
+            
+        <activity 
+            android:name="com.atid.app.mybarcode.option.SE4710.OptionSymbolCode39Activity"
+            android:label="@string/barcode_option_name"
+            android:icon="@drawable/ic_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity 
+            android:name="com.atid.app.mybarcode.option.SE4710.OptionSymbolCode93Activity"
+            android:label="@string/barcode_option_name"
+            android:icon="@drawable/ic_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+                
+        <activity 
+            android:name="com.atid.app.mybarcode.option.SE4710.OptionSymbolD2of5Activity"
+            android:label="@string/barcode_option_name"
+            android:icon="@drawable/ic_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity 
+            android:name="com.atid.app.mybarcode.option.SE4710.OptionSymbolI2of5Activity"
+            android:label="@string/barcode_option_name"
+            android:icon="@drawable/ic_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+            
+        <activity 
+            android:name="com.atid.app.mybarcode.option.SE4710.OptionSymbolMsiActivity"
+            android:label="@string/barcode_option_name"
+            android:icon="@drawable/ic_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+                
+        <activity 
+            android:name="com.atid.app.mybarcode.option.SE4710.OptionSymbolUpcEanActivity"
+            android:label="@string/barcode_option_name"
+            android:icon="@drawable/ic_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity 
+            android:name="com.atid.app.mybarcode.option.SE4710.OptionSymbolOptionCheck"
+            android:label="@string/barcode_option_name"
+            android:icon="@drawable/ic_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity 
+            android:name="com.atid.app.mybarcode.option.SE4710.OptionSymbolCode128Activity"
+            android:label="@string/barcode_option_name"
+            android:icon="@drawable/ic_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity 
+            android:name="com.atid.app.mybarcode.option.SE4710.OptionSymbolPostalCodeActivity"
+            android:label="@string/barcode_option_name"
+            android:icon="@drawable/ic_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity 
+            android:name="com.atid.app.mybarcode.option.SE4710.OptionSymbolRssActivity"
+            android:label="@string/barcode_option_name"
+            android:icon="@drawable/ic_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity 
+            android:name="com.atid.app.mybarcode.option.MDI3x00.OptionEnableStateActivity"
+            android:label="@string/barcode_option_name"
+            android:icon="@drawable/ic_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity 
+            android:name="com.atid.app.mybarcode.option.MDI3x00.OptionGeneralConfigActivity"
+            android:label="@string/barcode_option_name"
+            android:icon="@drawable/ic_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+    </application>
+
+</manifest>

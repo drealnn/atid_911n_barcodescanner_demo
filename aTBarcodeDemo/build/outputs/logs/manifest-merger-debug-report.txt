@@ -1,0 +1,439 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:2:1-291:12
+	package
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:5:5-41
+	android:versionCode
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:10:22-65
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:11:5-66
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:11:22-63
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:12:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:13:22-78
+application
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:15:5-289:19
+	android:label
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:18:9-41
+	android:allowBackup
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:16:9-35
+	android:icon
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:17:9-45
+	android:theme
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:19:9-40
+activity#com.atid.app.mybarcode.MainActivity
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:20:9-28:20
+	android:screenOrientation
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:23:13-49
+	android:label
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:22:13-45
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:21:13-63
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:24:13-27:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:26:27-74
+activity#com.atid.app.mybarcode.option.SE955.OptionActivitySE955
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:30:9-35:20
+	android:screenOrientation
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:34:13-49
+	android:label
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:32:13-56
+	android:icon
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:33:13-49
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:31:13-83
+activity#com.atid.app.mybarcode.option.SE955.OptionEnableStateActivity
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:37:9-42:20
+	android:screenOrientation
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:41:13-49
+	android:label
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:39:13-59
+	android:icon
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:40:13-49
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:38:13-89
+activity#com.atid.app.mybarcode.option.SE955.OptionGeneralConfigActivity
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:44:9-49:20
+	android:screenOrientation
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:48:13-49
+	android:label
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:46:13-56
+	android:icon
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:47:13-49
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:45:13-91
+activity#com.atid.app.mybarcode.option.SE955.OptionSymbolUpcEanActivity
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:51:9-56:20
+	android:screenOrientation
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:55:13-49
+	android:label
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:53:13-56
+	android:icon
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:54:13-49
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:52:13-90
+activity#com.atid.app.mybarcode.option.SE955.OptionSymbolCode39Activity
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:58:9-63:20
+	android:screenOrientation
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:62:13-49
+	android:label
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:60:13-55
+	android:icon
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:61:13-49
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:59:13-90
+activity#com.atid.app.mybarcode.option.SE955.OptionSymbolCode93Activity
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:65:9-70:20
+	android:screenOrientation
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:69:13-49
+	android:label
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:67:13-55
+	android:icon
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:68:13-49
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:66:13-90
+activity#com.atid.app.mybarcode.option.SE955.OptionSymbolCode11Activity
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:72:9-77:20
+	android:screenOrientation
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:76:13-49
+	android:label
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:74:13-55
+	android:icon
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:75:13-49
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:73:13-90
+activity#com.atid.app.mybarcode.option.SE955.OptionSymbolI2of5Activity
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:79:9-84:20
+	android:screenOrientation
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:83:13-49
+	android:label
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:81:13-64
+	android:icon
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:82:13-49
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:80:13-89
+activity#com.atid.app.mybarcode.option.SE955.OptionSymbolD2of5Activity
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:86:9-91:20
+	android:screenOrientation
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:90:13-49
+	android:label
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:88:13-60
+	android:icon
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:89:13-49
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:87:13-89
+activity#com.atid.app.mybarcode.option.SE955.OptionSymbolCodabarActivity
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:93:6-98:20
+	android:screenOrientation
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:97:13-49
+	android:label
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:95:13-56
+	android:icon
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:96:13-49
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:94:10-88
+activity#com.atid.app.mybarcode.option.SE955.OptionSymbolMsiActivity
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:100:6-105:20
+	android:screenOrientation
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:104:13-49
+	android:label
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:102:13-52
+	android:icon
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:103:13-49
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:101:10-84
+activity#com.atid.app.mybarcode.option.IT5x80.OptionActivityIT5x80
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:107:9-112:20
+	android:screenOrientation
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:111:13-49
+	android:label
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:109:13-56
+	android:icon
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:110:13-49
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:108:13-85
+activity#com.atid.app.mybarcode.option.IT5x80.OptionEnableStateActivity
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:114:9-119:20
+	android:screenOrientation
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:118:13-49
+	android:label
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:116:13-59
+	android:icon
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:117:13-49
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:115:13-90
+activity#com.atid.app.mybarcode.option.IT5x80.OptionSymbolAddenda
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:121:9-126:20
+	android:screenOrientation
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:125:13-49
+	android:label
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:123:13-56
+	android:icon
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:124:13-49
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:122:13-84
+activity#com.atid.app.mybarcode.option.IT5x80.OptionSymbolCheckDigit
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:128:9-133:20
+	android:screenOrientation
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:132:13-49
+	android:label
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:130:13-56
+	android:icon
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:131:13-49
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:129:13-87
+activity#com.atid.app.mybarcode.option.IT5x80.OptionSymbolComplexLength
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:135:9-140:20
+	android:screenOrientation
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:139:13-49
+	android:label
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:137:13-56
+	android:icon
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:138:13-49
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:136:13-90
+activity#com.atid.app.mybarcode.option.IT5x80.OptionSymbolLength
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:142:9-147:20
+	android:screenOrientation
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:146:13-49
+	android:label
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:144:13-56
+	android:icon
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:145:13-49
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:143:13-83
+activity#com.atid.app.mybarcode.option.IT5x80.OptionSymbolOCR
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:149:9-154:20
+	android:screenOrientation
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:153:13-49
+	android:label
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:151:13-56
+	android:icon
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:152:13-49
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:150:13-80
+activity#com.atid.app.mybarcode.option.IT5x80.OptionGeneralConfigActivity
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:156:9-161:20
+	android:screenOrientation
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:160:13-49
+	android:label
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:158:13-56
+	android:icon
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:159:13-49
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:157:13-92
+activity#com.atid.app.mybarcode.option.SE4710.OptionActivitySE4710
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:163:9-168:20
+	android:screenOrientation
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:167:13-49
+	android:label
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:165:13-56
+	android:icon
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:166:13-49
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:164:13-85
+activity#com.atid.app.mybarcode.option.MDI3x00.OptionActivityMDI3x00
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:170:9-175:20
+	android:screenOrientation
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:174:13-49
+	android:label
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:172:13-56
+	android:icon
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:173:13-49
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:171:13-87
+activity#com.atid.app.mybarcode.option.SE4710.OptionEnableStateActivity
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:177:9-182:20
+	android:screenOrientation
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:181:13-49
+	android:label
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:179:13-56
+	android:icon
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:180:13-49
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:178:13-90
+activity#com.atid.app.mybarcode.option.SE4710.OptionGeneralConfigActivity
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:184:9-189:20
+	android:screenOrientation
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:188:13-49
+	android:label
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:186:13-56
+	android:icon
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:187:13-49
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:185:13-92
+activity#com.atid.app.mybarcode.option.SE4710.OptionSymbolCodabarActivity
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:191:9-196:20
+	android:screenOrientation
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:195:13-49
+	android:label
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:193:13-56
+	android:icon
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:194:13-49
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:192:13-92
+activity#com.atid.app.mybarcode.option.SE4710.OptionSymbolCode11Activity
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:198:9-203:20
+	android:screenOrientation
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:202:13-49
+	android:label
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:200:13-56
+	android:icon
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:201:13-49
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:199:13-91
+activity#com.atid.app.mybarcode.option.SE4710.OptionSymbolCode39Activity
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:205:9-210:20
+	android:screenOrientation
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:209:13-49
+	android:label
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:207:13-56
+	android:icon
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:208:13-49
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:206:13-91
+activity#com.atid.app.mybarcode.option.SE4710.OptionSymbolCode93Activity
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:212:9-217:20
+	android:screenOrientation
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:216:13-49
+	android:label
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:214:13-56
+	android:icon
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:215:13-49
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:213:13-91
+activity#com.atid.app.mybarcode.option.SE4710.OptionSymbolD2of5Activity
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:219:9-224:20
+	android:screenOrientation
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:223:13-49
+	android:label
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:221:13-56
+	android:icon
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:222:13-49
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:220:13-90
+activity#com.atid.app.mybarcode.option.SE4710.OptionSymbolI2of5Activity
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:226:9-231:20
+	android:screenOrientation
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:230:13-49
+	android:label
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:228:13-56
+	android:icon
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:229:13-49
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:227:13-90
+activity#com.atid.app.mybarcode.option.SE4710.OptionSymbolMsiActivity
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:233:9-238:20
+	android:screenOrientation
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:237:13-49
+	android:label
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:235:13-56
+	android:icon
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:236:13-49
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:234:13-88
+activity#com.atid.app.mybarcode.option.SE4710.OptionSymbolUpcEanActivity
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:240:9-245:20
+	android:screenOrientation
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:244:13-49
+	android:label
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:242:13-56
+	android:icon
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:243:13-49
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:241:13-91
+activity#com.atid.app.mybarcode.option.SE4710.OptionSymbolOptionCheck
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:247:9-252:20
+	android:screenOrientation
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:251:13-49
+	android:label
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:249:13-56
+	android:icon
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:250:13-49
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:248:13-88
+activity#com.atid.app.mybarcode.option.SE4710.OptionSymbolCode128Activity
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:254:9-259:20
+	android:screenOrientation
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:258:13-49
+	android:label
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:256:13-56
+	android:icon
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:257:13-49
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:255:13-92
+activity#com.atid.app.mybarcode.option.SE4710.OptionSymbolPostalCodeActivity
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:261:9-266:20
+	android:screenOrientation
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:265:13-49
+	android:label
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:263:13-56
+	android:icon
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:264:13-49
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:262:13-95
+activity#com.atid.app.mybarcode.option.SE4710.OptionSymbolRssActivity
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:268:9-273:20
+	android:screenOrientation
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:272:13-49
+	android:label
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:270:13-56
+	android:icon
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:271:13-49
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:269:13-88
+activity#com.atid.app.mybarcode.option.MDI3x00.OptionEnableStateActivity
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:275:9-280:20
+	android:screenOrientation
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:279:13-49
+	android:label
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:277:13-56
+	android:icon
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:278:13-49
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:276:13-91
+activity#com.atid.app.mybarcode.option.MDI3x00.OptionGeneralConfigActivity
+ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:282:9-287:20
+	android:screenOrientation
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:286:13-49
+	android:label
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:284:13-56
+	android:icon
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:285:13-49
+	android:name
+		ADDED from C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\src\main\AndroidManifest.xml:283:13-93

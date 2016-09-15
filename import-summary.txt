@@ -1,0 +1,185 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From ATBarcodeDemo:
+* ic_launcher-web.png
+* proguard-project.txt
+From atid.dev.barcode:
+* META-INF\
+* META-INF\MANIFEST.MF
+* com\
+* com\atid\
+* com\atid\lib\
+* com\atid\lib\dev\
+* com\atid\lib\dev\ATScanManager.class
+* com\atid\lib\dev\ATScanParameter.class
+* com\atid\lib\dev\ATScanner$1.class
+* com\atid\lib\dev\ATScanner$DecodeEventArgs.class
+* com\atid\lib\dev\ATScanner.class
+* com\atid\lib\dev\barcode\
+* com\atid\lib\dev\barcode\Module.class
+* com\atid\lib\dev\barcode\ModuleIT5X80.class
+* com\atid\lib\dev\barcode\ModuleMDI3x00.class
+* com\atid\lib\dev\barcode\ModuleSE4710.class
+* com\atid\lib\dev\barcode\ModuleSE955.class
+* com\atid\lib\dev\barcode\except\
+* com\atid\lib\dev\barcode\except\InvalidScannerTypeException.class
+* com\atid\lib\dev\barcode\honeywell\
+* com\atid\lib\dev\barcode\honeywell\HoneywellCommand.class
+* com\atid\lib\dev\barcode\honeywell\HoneywellParamType.class
+* com\atid\lib\dev\barcode\honeywell\HoneywellResponse.class
+* com\atid\lib\dev\barcode\honeywell\param\
+* com\atid\lib\dev\barcode\honeywell\param\HoneywellParamMenu.class
+* com\atid\lib\dev\barcode\honeywell\param\HoneywellParamName.class
+* com\atid\lib\dev\barcode\honeywell\param\HoneywellParamValue.class
+* com\atid\lib\dev\barcode\honeywell\param\HoneywellParamValueList.class
+* com\atid\lib\dev\barcode\honeywell\type\
+* com\atid\lib\dev\barcode\honeywell\type\AimerMode.class
+* com\atid\lib\dev\barcode\honeywell\type\Barcode2dType.class
+* com\atid\lib\dev\barcode\honeywell\type\BeepDuration.class
+* com\atid\lib\dev\barcode\honeywell\type\BeepVolume2dType.class
+* com\atid\lib\dev\barcode\honeywell\type\CheckCharType.class
+* com\atid\lib\dev\barcode\honeywell\type\CheckDigitRequiredType.class
+* com\atid\lib\dev\barcode\honeywell\type\CodePageType.class
+* com\atid\lib\dev\barcode\honeywell\type\ComCodeEmulationType.class
+* com\atid\lib\dev\barcode\honeywell\type\DecodeMode.class
+* com\atid\lib\dev\barcode\honeywell\type\EncodingType.class
+* com\atid\lib\dev\barcode\honeywell\type\ImageFormatType.class
+* com\atid\lib\dev\barcode\honeywell\type\ImageGainType.class
+* com\atid\lib\dev\barcode\honeywell\type\ImageProtocolType.class
+* com\atid\lib\dev\barcode\honeywell\type\ImageRotateType.class
+* com\atid\lib\dev\barcode\honeywell\type\ImageShipEveryType.class
+* com\atid\lib\dev\barcode\honeywell\type\ImageStyleType.class
+* com\atid\lib\dev\barcode\honeywell\type\InverseType.class
+* com\atid\lib\dev\barcode\honeywell\type\OcrType.class
+* com\atid\lib\dev\barcode\honeywell\type\Orientation.class
+* com\atid\lib\dev\barcode\honeywell\type\Polarity.class
+* com\atid\lib\dev\barcode\honeywell\type\PosiCodeLimitType.class
+* com\atid\lib\dev\barcode\honeywell\type\ResponseType.class
+* com\atid\lib\dev\barcode\honeywell\type\TelepenOutputType.class
+* com\atid\lib\dev\barcode\honeywell\type\Trigger2dMode.class
+* com\atid\lib\dev\barcode\honeywell\type\TryStateType.class
+* com\atid\lib\dev\barcode\motorola\
+* com\atid\lib\dev\barcode\motorola\MotorolaCommand.class
+* com\atid\lib\dev\barcode\motorola\MotorolaMsgSrc.class
+* com\atid\lib\dev\barcode\motorola\MotorolaReasonCode.class
+* com\atid\lib\dev\barcode\motorola\param\
+* com\atid\lib\dev\barcode\motorola\param\SSIParamName.class
+* com\atid\lib\dev\barcode\motorola\param\SSIParamValue.class
+* com\atid\lib\dev\barcode\motorola\param\SSIParamValueList.class
+* com\atid\lib\dev\barcode\motorola\type\
+* com\atid\lib\dev\barcode\motorola\type\Code11CheckDigitVerification.class
+* com\atid\lib\dev\barcode\motorola\type\CompositeBeepMode.class
+* com\atid\lib\dev\barcode\motorola\type\DecodeUpcEanSupplementals.class
+* com\atid\lib\dev\barcode\motorola\type\Gs1DataBarLimitedSecurityLevel.class
+* com\atid\lib\dev\barcode\motorola\type\I2of5CheckDigitVerification.class
+* com\atid\lib\dev\barcode\motorola\type\LinearCodeTypeSecurityLevel.class
+* com\atid\lib\dev\barcode\motorola\type\MsiCheckDigitAlgorithm.class
+* com\atid\lib\dev\barcode\motorola\type\MsiCheckDigits.class
+* com\atid\lib\dev\barcode\motorola\type\Preamble.class
+* com\atid\lib\dev\barcode\motorola\type\SSIBarcodeType.class
+* com\atid\lib\dev\barcode\motorola\type\SSIBeepCodeType.class
+* com\atid\lib\dev\barcode\motorola\type\SSIBeepToneType.class
+* com\atid\lib\dev\barcode\motorola\type\SSIBeepVolumeType.class
+* com\atid\lib\dev\barcode\motorola\type\SSIEventType.class
+* com\atid\lib\dev\barcode\motorola\type\SSIInverseType.class
+* com\atid\lib\dev\barcode\motorola\type\SSIPowerMode.class
+* com\atid\lib\dev\barcode\motorola\type\SSIScanAngleType.class
+* com\atid\lib\dev\barcode\motorola\type\SSITimeDelay.class
+* com\atid\lib\dev\barcode\motorola\type\SSITriggerMode.class
+* com\atid\lib\dev\barcode\motorola\type\ScanDataTransmissionFormat.class
+* com\atid\lib\dev\barcode\motorola\type\TransmitCodeIdCharacter.class
+* com\atid\lib\dev\barcode\motorola\type\UpcCompositeMode.class
+* com\atid\lib\dev\barcode\motorola\type\UpcEanSecurityLevel.class
+* com\atid\lib\dev\barcode\opticon\
+* com\atid\lib\dev\barcode\opticon\OpticonCommand.class
+* com\atid\lib\dev\barcode\opticon\param\
+* com\atid\lib\dev\barcode\opticon\param\OpticonParamEnableStatus.class
+* com\atid\lib\dev\barcode\opticon\param\OpticonParamEnableStatusList.class
+* com\atid\lib\dev\barcode\opticon\param\OpticonParamName.class
+* com\atid\lib\dev\barcode\opticon\param\OpticonParamValue.class
+* com\atid\lib\dev\barcode\opticon\param\OpticonParamValueList.class
+* com\atid\lib\dev\barcode\opticon\type\
+* com\atid\lib\dev\barcode\opticon\type\OpticonBarcodeType.class
+* com\atid\lib\dev\barcode\opticon\type\OpticonEventType.class
+* com\atid\lib\dev\barcode\params\
+* com\atid\lib\dev\barcode\params\ATScanIT5x80Parameter.class
+* com\atid\lib\dev\barcode\params\ATScanMDI3x00Parameter.class
+* com\atid\lib\dev\barcode\params\ATScanSE4710Parameter.class
+* com\atid\lib\dev\barcode\params\ATScanSE955Parameter.class
+* com\atid\lib\dev\barcode\protocol\
+* com\atid\lib\dev\barcode\protocol\ProtocolIT5X80$CommandResponse.class
+* com\atid\lib\dev\barcode\protocol\ProtocolIT5X80$DataRecvThread.class
+* com\atid\lib\dev\barcode\protocol\ProtocolIT5X80$Watcher.class
+* com\atid\lib\dev\barcode\protocol\ProtocolIT5X80.class
+* com\atid\lib\dev\barcode\protocol\ProtocolMotorola$CommandResponse.class
+* com\atid\lib\dev\barcode\protocol\ProtocolMotorola$DataRecvThread.class
+* com\atid\lib\dev\barcode\protocol\ProtocolMotorola$Watcher.class
+* com\atid\lib\dev\barcode\protocol\ProtocolMotorola.class
+* com\atid\lib\dev\barcode\protocol\ProtocolOpticon$CommandResponse.class
+* com\atid\lib\dev\barcode\protocol\ProtocolOpticon$DataRecvThread.class
+* com\atid\lib\dev\barcode\protocol\ProtocolOpticon$Watcher.class
+* com\atid\lib\dev\barcode\protocol\ProtocolOpticon.class
+* com\atid\lib\dev\barcode\type\
+* com\atid\lib\dev\barcode\type\BarcodeType.class
+* com\atid\lib\dev\barcode\type\EventType.class
+* com\atid\lib\dev\barcode\type\RangeIntValue.class
+* com\atid\lib\dev\barcode\type\ScannerType.class
+* com\atid\lib\dev\event\
+* com\atid\lib\dev\event\BarcodeEventListener.class
+* com\atid\lib\dev\event\BarcodeEventManager.class
+* com\atid\lib\dev\event\Scan1dEventListener.class
+* com\atid\lib\dev\event\Scan2dEventListener.class
+* com\atid\lib\dev\event\ScanOpticonEventListener.class
+* com\atid\lib\dev\event\ScanSSIEventListener.class
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => aTBarcodeDemo\src\main\AndroidManifest.xml
+* assets\ => aTBarcodeDemo\src\main\assets
+* libs\armeabi\libserial_port.so => aTBarcodeDemo\src\main\jniLibs\armeabi\libserial_port.so
+* libs\armeabi\libsystem_control.so => aTBarcodeDemo\src\main\jniLibs\armeabi\libsystem_control.so
+* libs\atid.dev.barcode.jar => aTBarcodeDemo\libs\atid.dev.barcode.jar
+* libs\atid.system.comm.jar => aTBarcodeDemo\libs\atid.system.comm.jar
+* libs\atid.system.ctrl.jar => aTBarcodeDemo\libs\atid.system.ctrl.jar
+* libs\atid.system.device.jar => aTBarcodeDemo\libs\atid.system.device.jar
+* libs\atid.util.jar => aTBarcodeDemo\libs\atid.util.jar
+* lint.xml => aTBarcodeDemo\lint.xml
+* res\ => aTBarcodeDemo\src\main\res\
+* src\ => aTBarcodeDemo\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

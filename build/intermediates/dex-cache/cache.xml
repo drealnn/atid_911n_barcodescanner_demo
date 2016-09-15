@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\libs\atid.system.comm.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="71cf2b1b07b92bfca9855ecbafc5589c08a35978">
+        <dex dex="C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\build\intermediates\pre-dexed\debug\atid.system.comm-f4d8011b4b21dae6f5e7711982e83e990c18f57d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\libs\atid.system.device.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="cca1b52ba49713b85c248c3b8f222a13c0a71667">
+        <dex dex="C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\build\intermediates\pre-dexed\debug\atid.system.device-4cff1b988debb9825feee99cb4ee4837dad2aa34.jar" />
+    </item>
+    <item
+        jar="C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\libs\atid.util.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="a2b97352fd7cd20156b4a9768acc98384d2999d0">
+        <dex dex="C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\build\intermediates\pre-dexed\debug\atid.util-75f075ea9516338f0dd65abb09dc548238857cca.jar" />
+    </item>
+    <item
+        jar="C:\Users\Sledd\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\build\intermediates\pre-dexed\debug\support-v4-18.0.0-469b701958d8706ba2c8a0a5431f9a7840b2ab08.jar" />
+    </item>
+    <item
+        jar="C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\libs\atid.dev.barcode.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="8ce27ed7541b68fad0a6a5a0298df27c57bd7265">
+        <dex dex="C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\build\intermediates\pre-dexed\debug\atid.dev.barcode-b67c3a4f9cfda1f82d708e72b4674ac29f11615b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\libs\atid.system.ctrl.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="ffd68b467783aa4887cbfab886094e03fdd53a81">
+        <dex dex="C:\Users\Sledd\Desktop\atid_911n-master\ATBarcodeDemo3\aTBarcodeDemo\build\intermediates\pre-dexed\debug\atid.system.ctrl-6ff5a9bbd47979b14370eea284edb936ab9f9a72.jar" />
+    </item>
+
+</items>

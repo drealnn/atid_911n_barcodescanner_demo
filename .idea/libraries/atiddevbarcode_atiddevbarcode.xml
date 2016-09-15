@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="atiddevbarcode.atiddevbarcode">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/atiddevbarcode/build/libs/atiddevbarcode.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
